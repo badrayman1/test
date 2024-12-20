@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: sans-serif ;
+}
+body{
+    display: flex;
+    background:linear-gradient(to left, rgba(0, 0, 118, 0.733),black);
+}
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    flex-shrink:0 ;
+    
+}
+.img-box img{
+    width: 100%;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.menu{
+    background-color: rgb(51, 53, 113);
+    width: 60px;
+    height: 92vh;
+    padding: 30px;
+    overflow: hidden;
+    transition: .5s;
+}
+.menu:hover{
+    width: 250px;
+
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 100%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px 0; 
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    gap: 30px;
+    transition: 0.5s;
+    gap: 50px;
+}
+ul li a:hover , .active , .data-info .box:hover{
+    background-color: rgba(240, 248, 255, 0.322);
+
+}
+.Log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.Log-out a{
+    background-color: #a00;
+}
+ul li a i{
+    font-size: 25px;
+}
+.content{
+    width: 100%;
+}
+.titel-info{
+    background-color: darkblue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    justify-content: space-between;
+    margin: 10px ;
+}
+.data-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px ;
+}
+.data-info .box{
+    background-color: rgb(20, 30, 79);
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+.data-info .box i{
+    font-size: 50px;
+
+}
+.data-info .box .data{
+    text-align: center;
+}
+.data-info .box p{
+    font-size: 30px;
+}
+
+
+

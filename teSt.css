@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+*{
+    font-family: "Montserrat", serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+body{
+    background:linear-gradient(to right,#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 95%;
+    height: 700px;
+    background-image:
+    linear-gradient(to right,#01022da2 30%,#000000b2)
+    ,url(wallpaperflare.com_wallpaper.jpg);
+    background-size: 1550px 700px;
+    border-radius: 20px;
+    background-position: center;
+    
+}
+.container:hover{
+    background-image:
+    linear-gradient(to right,#01022da2 30%,transparent)
+    ,url(wallpaperflare.com_wallpaper.jpg);
+}
+header {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul{
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul a{
+    border: 2px solid transparent;
+   
+}
+ul a:hover{
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.content{
+    color: aliceblue;
+    width: 50%;
+    padding: 30px;
+    margin-top: 60px;
+}
+.content h2{
+    text-transform:uppercase ;
+    font-weight: 500;
+    font-size: 100px;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 300px;
+}
+.content button{
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.content button:hover{
+   background: transparent;
+   cursor: pointer;
+   border: 2px solid white;
+}
+
